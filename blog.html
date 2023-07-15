@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VenTuri</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/blog.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <a href="Index.html"><button><h1>V<b>enturi</b></h1></button></a>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html"> <i class="fas fa-home"></i> Inicio</a></li>
+                        
+                        <li class="menu-selected"><a href="blog.html" class="text-menu-selected"> <i class="fas fa-file-alt"></i>Blog</a></li>
+                        <li><a href="Acerca de.html"> <i class="fas fa-file-alt"> </i>Acerca de</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div id="ctn-icon-search">
+                <i class="fas fa-search" id="icon-search"></i>
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+    </div>
+
+    <ul id="box-search">
+        <li><a href="articulosa.html"><i class="fas fa-search"></i>Salto Ángel</a></li>
+        <li><a href="articulopnm.html"><i class="fas fa-search"></i>Parque Nacional Morrocoy</a></li>
+        <li><a href="articuloidm.html"><i class="fas fa-search"></i>Isla de Margarita</a></li>
+        <li><a href="articulopnmm.html"><i class="fas fa-search"></i>Parque Nacional Mochima</a></li>
+        <li><a href="articulopnc.html"><i class="fas fa-search"></i>Parque Nacional Canaima</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i></a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i></a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i></a></li>
+    </ul>
+
+    <div id="cover-ctn-search"></div>
+
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+    
+    <div class="blog-container-cover">
+        <div class="container-info-cover">
+            <h1>¡Encuentra tu destino de interes!</h1>
+            <p>"Hay lugares para quedarse y lugares que quedan en uno"</p>
+        </div>
+    </div>
+
+    <div class="container-post">
+
+        <input type="radio" id="TODOS" name="Categories" value="TODOS" checked>
+        <input type="radio" id="Sitios" name="Categories" value="Sitios">
+        <input type="radio" id="Parques" name="Categories" value="Parques">
+        <input type="radio" id="Naturales" name="Categories" value="Naturales">
+        <input type="radio" id="Recreativos" name="Categories" value="Recreativos">
+        <input type="radio" id="Historicos" name="Categories" value="Historicos">
+
+        <div class="container-category">
+            <label for="TODOS">TODOS</label>
+            <label for="Sitios">Sitios</label>
+            <label for="Parques">Parques</label>
+            <label for="Naturales">Naturales</label>
+            <label for="Recreativos">Recreativos</label>
+            <label for="Historicos">Historicos</label>
+        </div>
+
+        <div class="posts">
+
+            <div class="post" data-category="Parques Naturales">
+
+                <div class="ctn-img">
+                    <img src="img/mini.jpg" alt="">
+                </div>
+                <h2>Salto Ángel</h2>
+                <span>El Salto Ángel es la cascada más alta del mundo, Está ubicado en el parque nacional Canaima, Estado Bolívar, Venezuela.</span>
+                <ul class="ctn-tag"> 
+                    <li>NATURAL</li>
+                    <li>PARQUE</li>
+                </ul>
+                <a href="articulosa.html"><button>Leer más</button></a>
+            </div>
+    
+            <div class="post" data-category="Sitios Recreativos">
+    
+                <div class="ctn-img">
+                    <img src="img/Miniidm.jpg" alt="">
+                </div>
+                <h2>Isla de Margarita</h2>
+                <span>Isla de Margarita es parte de Venezuela y se ubica en el mar Caribe. Es un destino vacacional popular.</span>
+                <ul class="ctn-tag"> 
+                    <li>SITIO</li>
+                    <li>RECREATIVO</li>
+                </ul>
+                <a href="articuloidm.html"><button>Leer más</button></a>
+            </div>
+    
+            <div class="post" data-category="Parques Naturales">
+    
+                <div class="ctn-img">
+                    <img src="img/Minipnm.jpg" alt="">
+                </div>
+                <h2>Parque Nacional Morrocoy</h2>
+                <span>Es una isla protegida y una reserva marina. En sus claras aguas pueden observarse arrecifes de coral.</span>
+                <ul class="ctn-tag"> 
+                    <li>NATURAL</li>
+                    <li>PARQUE</li>
+                </ul>
+                <a href="articulopnm.html"><button>Leer más</button></a>
+            </div>
+    
+            <div class="post" data-category="Parques Naturales">
+    
+                <div class="ctn-img">
+                    <img src="img/pnm.jpg" alt="">
+                </div>
+                <h2>Parque Nacional Mochima</h2>
+                <span>Es una reserva natural es famoso por su abundante fauna, que incluye tortugas de mar y delfines.</span>
+                <ul class="ctn-tag"> 
+                    <li>NATURAL</li>
+                    <li>PARQUE</li>
+                </ul>
+                <a href="articulopnmm.html"><button>Leer más</button></a>
+            </div>
+    
+            <div class="post" data-category="Parques Naturales">
+    
+                <div class="ctn-img">
+                    <img src="img/Minipnc.jpg" alt="">
+                </div>
+                <h2>Parque Nacional Canaima</h2>
+                <span>Es un parque nacional ubicado en el estado Bolívar. Declarado Patrimonio de la Humanidad.</span>
+                <ul class="ctn-tag"> 
+                    <li>NATURAL</li>
+                    <li>PARQUE</li>
+                </ul>
+                <a href="articulopnc.html"><button>Leer más</button></a>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+
+    <div class="container-footer">	
+
+        <footer>
+            <div class="logo-footer">
+                <img src="img/Logo.png" alt="">
+            </div>
+
+            <div class="redes-footer">
+                <!-- <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a> -->
+                <!-- <a href="#"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a> -->
+            </div>
+
+            <hr>
+            <h4>© 2023 VenTuri - Todos los Derechos Reservados</h4>
+
+        </footer>
+
+    </div>
+
+</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
